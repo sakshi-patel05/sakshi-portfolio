@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+  /* scroll-behavior: smooth; */
+
+
+body {
+  margin: 0;
+  background: #070b14;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00d9ff;
+  border-radius: 20px;
+}
+::selection{
+    background:#22d3ee;
+    color:#000;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+img{
+    user-select:none;
+}
+.active-link div {
+  color: #22d3ee;
+  background: rgba(34, 211, 238, 0.12);
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.35);
+  border: 1px solid rgba(34, 211, 238, 0.4);
+}
+header {
+  padding-top: env(safe-area-inset-top);
+}
+html,
+body,
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+select {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+select option {
+  background-color: #070b14;
+  color: white;
+}
+
+
+.active-link div {
+  background: rgba(34, 211, 238, 0.15);
+  color: #22d3ee;
+  border: 1px solid rgba(34, 211, 238, 0.4);
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.5);
+  transform: scale(1.08);
+}
+
+.active-link span {
+  color: #22d3ee;
+}
