@@ -55,4 +55,24 @@ export const projects = [
 
     github: "https://github.com/DipanshuGurjar123/Student-management-system",
   },
+
+  {
+  id: 4,
+  title: "Notebook App",
+  image: "/projects/notebook.avif",
+
+  description:
+    "A responsive note-taking application built with React and Tailwind CSS. Users can create, edit, and delete notes with LocalStorage support. Each note includes its creation date and time, providing a simple and efficient note management experience.",
+
+  technologies: [
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "LocalStorage",
+  ],
+
+  github: "https://github.com/sakshi-patel05/Note-Book",
+
+  live: "https://note-book-gray-five.vercel.app/",
+}
 ];
